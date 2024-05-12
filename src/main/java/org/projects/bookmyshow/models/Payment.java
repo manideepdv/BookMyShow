@@ -17,7 +17,7 @@ public class Payment  extends  BaseModel {
     private PaymentProvider paymentProvider;
 
     @Enumerated(EnumType.ORDINAL)
-    private PaymentMode paymentMode;
+    private PaymentMode paymentMode; // Payment mode can be list as well
 
     @Enumerated(EnumType.ORDINAL)
     private PaymentStatus paymentStatus;

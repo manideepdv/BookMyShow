@@ -16,7 +16,7 @@ public class Booking extends BaseModel {
     private User user;
 
     @ManyToOne
-    private Show show;
+    private Show show; // Show contains the show time
 
     @ManyToMany
     private List<ShowSeat> showSeats;
